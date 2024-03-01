@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+via_ir = true
+fs_permissions = [
+    {path = "./encoded_proposals", access = "read"}
+]
+remappings = [
+    "@fractal-framework/=node_modules/@fractal-framework/",
+    "@gnosis.pm/=node_modules/@gnosis.pm/",
+    "@openzeppelin/=node_modules/@openzeppelin/"
+]
+
