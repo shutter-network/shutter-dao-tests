@@ -1,0 +1,34 @@
+{
+  "strategy": "0x4b29d8B250B8b442ECfCd3a4e3D91933d2db720F",
+  "transactions": [
+    {
+      "targetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "functionName": "approve",
+      "functionSignature": "address,uint256",
+      "parameters": "0x0A59649758aa4d66E25f08Dd01271e891fe52199,3000000000000",
+      "value": 0
+    },
+    {
+      "targetAddress": "0x89B78CfA322F6C5dE0aBcEecab66Aee45393cC5A",
+      "functionName": "sellGem",
+      "functionSignature": "address,uint256",
+      "parameters": "0x36bD3044ab68f600f6d3e081056F34f2a58432c4,3000000000000",
+      "value": 0
+    },
+    {
+      "targetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "functionName": "approve",
+      "functionSignature": "address,uint256",
+      "parameters": "0x83F20F44975D03b1b09e64809B757c47f942BEeA,3000000000000000000000000",
+      "value": 0
+    },
+    {
+      "targetAddress": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+      "functionName": "deposit",
+      "functionSignature": "uint256,address",
+      "parameters": "3000000000000000000000000,0x36bD3044ab68f600f6d3e081056F34f2a58432c4",
+      "value": 0
+    }
+  ],
+  "metadata": ""
+}
