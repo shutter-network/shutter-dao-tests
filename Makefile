@@ -1,4 +1,5 @@
-FORGE_OPTS := --fork-url $(FORK_URL) -vvv
+REQUIRED_FORGE_OPTS := --fork-url $(FORK_URL) -vvv
+FORGE_OPTS :=
 
 .PHONY: test clean interfaces encoded-proposals
 
@@ -11,7 +12,7 @@ ABIS := $(wildcard abis/*.json)
 INTERFACES := $(patsubst abis/%.json,interfaces/%.sol,$(ABIS))
 
 test: $(ENCODED_PROPOSALS) $(INTERFACES)
-	forge test $(FORGE_OPTS)
+	forge test $(REQUIRED_FORGE_OPTS) $(FORGE_OPTS)
 
 encoded-proposals: $(ENCODED_PROPOSALS)
 
