@@ -1,0 +1,27 @@
+{
+  "strategy": "0x4b29d8B250B8b442ECfCd3a4e3D91933d2db720F",
+  "transactions": [
+    {
+      "targetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "functionName": "transfer",
+      "functionSignature": "address,uint256",
+      "parameters": "0xB476Ee7D610DAe7B23B671EBC7Bd6112E9772969,600000000000",
+      "value": 0
+    },
+    {
+      "targetAddress": "0xe485E2f1bab389C08721B291f6b59780feC83Fd7",
+      "functionName": "approve",
+      "functionSignature": "address,uint256",
+      "parameters": "0xD724DBe7e230E400fe7390885e16957Ec246d716,200000000000000000000000",
+      "value": 0
+    },
+    {
+      "targetAddress": "0xD724DBe7e230E400fe7390885e16957Ec246d716",
+      "functionName": "addVesting",
+      "functionSignature": "address,uint8,bool,uint16,uint64,uint128,uint128,bool",
+      "parameters": "0xB476Ee7D610DAe7B23B671EBC7Bd6112E9772969,0,false,1,1743465600,200000000000000000000000,200000000000000000000000,false",
+      "value": 0
+    }
+  ],
+  "metadata": ""
+}
