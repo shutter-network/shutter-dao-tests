@@ -28,4 +28,9 @@ contract TreasuryManagementTemp is ProposalTest {
     assertEq(usdc.balanceOf(dao), daoUSDCBefore - 3_000_000 * 10 ** 6);
     assert(sdai.balanceOf(dao) > daoSDAIBefore + 2_500_000 * 10 ** 18);
   }
+
+  function testAllowances() public {
+    assertEq(usdc.allowance(dao, address(sdai)), 0);
+    assertEq(dai.allowance(dao, 0x0A59649758aa4d66E25f08Dd01271e891fe52199), 0);
+  }
 }
