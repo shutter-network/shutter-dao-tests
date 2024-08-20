@@ -1,0 +1,13 @@
+{
+  "strategy": "0x4b29d8B250B8b442ECfCd3a4e3D91933d2db720F",
+  "transactions": [
+    {
+      "targetAddress": "0x36bD3044ab68f600f6d3e081056F34f2a58432c4",
+      "functionName": "disableModule",
+      "functionSignature": "address,address",
+      "parameters": "0x0000000000000000000000000000000000000001,0xD724DBe7e230E400fe7390885e16957Ec246d716",
+      "value": 0
+    }
+  ],
+  "metadata": ""
+}
