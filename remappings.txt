@@ -1,0 +1,8 @@
+@fractal-framework/=node_modules/@fractal-framework/
+@gnosis.pm/=node_modules/@gnosis.pm/
+@openzeppelin/=node_modules/@openzeppelin/
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+@sablier/v2-core/=node_modules/@sablier/v2-core/
+@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/
+@prb/math/=node_modules/@prb/math/
