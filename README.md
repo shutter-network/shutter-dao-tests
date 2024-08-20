@@ -22,7 +22,9 @@ instance `.envrc.example`):
 
 - `FORK_URL`: The URL of an Ethereum mainnet JSON RPC provider
 
-`make test` will prepare and execute the tests.
+`make test` will prepare and execute the tests. Specify `FORGE_OPTS` to pass
+options to forge, e.g., to filter the tests to run:
+`make test FORGE_OPTS="--match-contract <test contract name>"`.
 
 ## Adding Tests
 
@@ -36,11 +38,11 @@ following format:
   "strategy": "0x4b29d8B250B8b442ECfCd3a4e3D91933d2db720F",
   "transactions": [
     {
-        "targetAddress": "",
-        "functionName": "",
-        "functionSignature": "",
-        "parameters": "",
-        "value": 0
+      "targetAddress": "",
+      "functionName": "",
+      "functionSignature": "",
+      "parameters": "",
+      "value": 0
     }
   ],
   "metadata": ""
