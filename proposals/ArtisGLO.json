@@ -1,0 +1,13 @@
+{
+  "strategy": "0x4b29d8B250B8b442ECfCd3a4e3D91933d2db720F",
+  "transactions": [
+    {
+      "targetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "functionName": "transfer",
+      "functionSignature": "address,uint256",
+      "parameters": "0xe765816e64Af6F50A7E629198492B22ad38467DC,301000000000",
+      "value": 0
+    }
+  ],
+  "metadata": ""
+}
