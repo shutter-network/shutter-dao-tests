@@ -1,0 +1,20 @@
+{
+  "strategy": "0x4b29d8B250B8b442ECfCd3a4e3D91933d2db720F",
+  "transactions": [
+    {
+      "targetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "functionName": "transfer",
+      "functionSignature": "address,uint256",
+      "parameters": "0xb75E2fB01521Bd7b6369F831414840A54a3C7234,200000000000",
+      "value": 0
+    },
+    {
+      "targetAddress": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3",
+      "functionName": "transfer",
+      "functionSignature": "address,uint256",
+      "parameters": "0xb75E2fB01521Bd7b6369F831414840A54a3C7234,33000000000000000000000",
+      "value": 0
+    }
+  ],
+  "metadata": ""
+}
